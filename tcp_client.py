@@ -10,4 +10,4 @@ while True:
     msg=sockfd.recv(1024)
     print("服务器：",msg.decode())
 sockfd.close()
-
+print(“你好”)
